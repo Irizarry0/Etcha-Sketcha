@@ -1,0 +1,49 @@
+:root{
+  --row : 6.25%;
+}
+
+.bg-green{
+    background-color:aquamarine;
+  
+}
+.bg-purple{
+  background-color:rgb(209, 104, 209);
+  
+}
+  
+
+#grid-container {
+    display:flex;
+    flex-wrap:wrap;
+    /* background-color:aquamarine; */
+    margin: 15%;
+    padding: 0%;
+    background-color: rgb(209, 104, 209);
+  
+  }
+  
+#grid-container > div {
+
+    line-height: 1cm;
+    width: var(--row); 
+    height: var(--row);
+    text-align: center;
+    font-size: 1px;
+    
+    
+    
+    
+   
+  }
+
+ form :active{
+  color:aquamarine;
+
+}
+
+
+
+
+
+
+
